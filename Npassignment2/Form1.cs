@@ -22,7 +22,7 @@ namespace Npassignment2
                 {
                     smtpClient.Port = 587;
                     smtpClient.EnableSsl = true;
-                    smtpClient.Credentials = new NetworkCredential("your email", "your encrypted password");
+                    smtpClient.Credentials = new NetworkCredential("your personal email", "your encrypted pasword");
 
                     MailMessage emailMatter = new MailMessage();
                     emailMatter.From = new MailAddress(senderemail.Text);
